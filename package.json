@@ -1,0 +1,35 @@
+{
+    "name": "ron",
+    "displayName": "RON",
+    "description": "Rusty Object Notation for Visual Studio Code",
+    "version": "0.1.0",
+    "publisher": "Ix5231",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "ron",
+                "aliases": [
+                    "RON",
+                    "ron"
+                ],
+                "extensions": [
+                    ".ron"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "ron",
+                "scopeName": "",
+                "path": "./syntaxes/ron.tmLanguage.json"
+            }
+        ]
+    }
+}
